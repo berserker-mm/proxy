@@ -1,0 +1,14 @@
+#!name=snell&ddns
+#!desc=snell&ddns
+
+[Snell Server]
+interface = ::0
+port = 65535
+psk = surgepro
+version = 6
+obfs = off
+model = default
+
+[Script]
+#每隔10分钟 执行一次DDNS更新
+ddns = type=cron,cronexp='0 */10 * * * *',wake-system=1,timeout=60,script-path=
