@@ -11,4 +11,4 @@ model = default
 
 [Script]
 #每隔10分钟 执行一次DDNS更新
-ddns = type=cron,cronexp='0 */10 * * * *',wake-system=1,timeout=60,script-path=
+ddns = type=cron,cronexp='0 */10 * * * *',wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/berserker-mm/proxy/refs/heads/main/surge/ddns-ipv6.js
